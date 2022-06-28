@@ -1,0 +1,40 @@
+#textboxhalf1
+{
+    width:30%;
+    
+}
+
+#textboxfull
+{
+    width:70%;
+    
+}
+
+.oneline{
+    display: inline-flex;
+}
+
+.worr{
+    color: blue;
+}
+.buttonsmall{
+    color: white;
+    background-color: blue;
+    height: 5%;
+}
+.buttonbig1{
+    color: white;
+    background-color: blue;
+    height: 5%;
+}
+
+.buttonbig2{
+    color: white;
+    background-color: green;
+    height: 10%;
+}
+
+body{
+    text-align: center;
+}
+
