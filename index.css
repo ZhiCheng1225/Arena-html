@@ -1,13 +1,23 @@
-#textboxhalf1
+#textboxhalf
 {
-    width:30%;
+    width:34.2%;
+    border-radius: 5px;
+    height: 10%;
+    box-sizing: border-box;
+}
+
+.linewidth
+{
+    width:10%;
     
 }
 
 #textboxfull
 {
     width:70%;
-    
+    border-radius: 5px;
+    height: 10%;
+    box-sizing: border-box;
 }
 
 .oneline{
@@ -25,16 +35,19 @@
 .buttonbig1{
     color: white;
     background-color: blue;
-    height: 5%;
+    height: 10%;
+    width: 20%;
 }
 
 .buttonbig2{
     color: white;
     background-color: green;
     height: 10%;
+    width: 20%;
 }
 
 body{
     text-align: center;
+    border: 0;
 }
 
