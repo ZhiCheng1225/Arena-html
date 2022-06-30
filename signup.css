@@ -1,0 +1,118 @@
+body{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: #209cee;
+}
+
+.name input[type=text], .password input[type=password]{
+    width: 44%;
+    margin: 0 5px;
+    margin-bottom: 5px;
+}
+
+.info{
+    margin-bottom: 5px;
+}
+
+input[type=text], input[type=password]{
+    width: 95%;
+    padding: 3px;
+    margin: 5px auto;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+}
+
+.signup h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.terms{
+    margin: 0 auto;
+}
+
+#check{
+    font-size: .5rem;
+    margin-right: 10vw;
+}
+
+input[type=checkbox]{
+    height: 10px;
+}
+
+input[type=checkbox], #check{
+    float: left;
+    
+}
+
+.terms p{
+    font-size: .5rem;
+    text-align: left;
+}
+
+#sign-in, #register{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 0;
+    font-size: .8rem;
+    width: 49%;
+    color: white;
+    cursor: pointer;
+}
+
+#reg{
+    color: white;
+    background-color:#3273dc;
+    padding: .1rem;
+    border-radius: .1rem;
+}
+
+#register{
+    background-color:#3273dc;
+}
+
+#register:hover{
+    background-color:#209cee;
+}
+
+#sign-in{
+    background-color:#23d160;
+}
+
+#sign-in:hover{
+    background-color: #64eab4;
+}
+
+@media screen and (max-width:386px){
+    .name input[type=text],.password input[type=password]{
+        width: 95%;
+        margin: 5px auto;
+    }
+}
+@media screen and (max-width:237px){
+    #sign-in, #register{
+        margin: 10px auto;
+        
+    }
+
+    .terms{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #check{
+        font-size: .4rem;
+    }
+    .terms p{
+        font-size: .35rem;
+    }
+}

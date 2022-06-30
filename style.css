@@ -1,0 +1,254 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0 3rem;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .antraLogo {
+    width: 12rem;
+    position: relative;
+    top: 2rem;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .instruction {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  ul {
+    margin: 5px 0;
+  }
+  .signUp {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .form {
+    padding: 0 8rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .formName {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    align-items: center;
+  }
+  
+  .inputText {
+    font-size: 1.1rem;
+    height: 2.5rem;
+    padding: 0 12px;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input {
+    border: 1px solid rgba(152, 152, 152, 0.6);
+    outline: none;
+  }
+  
+  input:hover,
+  input:focus {
+    border: 1px solid rgba(68, 151, 220, 0.8);
+    box-shadow: 0 0 5px rgba(68, 151, 220, 0.8);
+  }
+  
+  .agreementSection {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+  
+  .agreementSection .agree {
+    font-weight: 600;
+    margin-left: 2px;
+  }
+  
+  .agreementTitle {
+    display: flex;
+    align-items: center;
+  }
+  .agreementDetails {
+    font-size: 0.9rem;
+    /* font-weight: 300; */
+  }
+  
+  .btnRegister {
+    background-color: #4497dc;
+    border: 1px solid #4497dc;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .button {
+    font-size: 1.1rem;
+    /* padding: 0rem 12px; */
+    height: 2.5rem;
+    width: 100%;
+  }
+  
+  .btnSignIn {
+    background-color: rgb(102, 179, 102);
+    border: 1px solid rgb(102, 179, 102);
+    border-radius: 5px;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #4497dc;
+  }
+  
+  footer {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    font-size: 0.8rem;
+    padding-bottom: 3rem;
+    padding-top: 15rem;
+  }
+  
+  footer a {
+    color: black;
+  }
+  
+  hr {
+    position: relative;
+    margin: 1rem 2rem;
+  }
+  
+  .antraFooter {
+    margin: 0;
+  }
+  .footerInfo {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  @media (max-width: 1000px) {
+    .form {
+      padding: 0 5rem;
+    }
+    .inputText,
+    .button {
+      font-size: 1rem;
+    }
+  
+    h1 {
+      padding: 1rem 0;
+    }
+  }
+  
+  @media (max-width: 920px) {
+    footer {
+      padding-top: 20rem;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    body {
+      padding: 0 1rem;
+    }
+    .form {
+      padding: 0 1rem;
+    }
+  
+    .topSection p,
+    li {
+      font-size: 0.8rem;
+    }
+  
+    .agreementSection {
+      grid-template-columns: 1.5fr 4fr;
+    }
+    .instruction,
+    .agreementSection,
+    .inputText {
+      font-size: 0.8rem;
+    }
+  
+    .agreementDetails,
+    .btnRegister {
+      font-size: 0.7rem;
+    }
+    .signUp {
+      font-size: 2rem;
+    }
+  
+    .formName {
+      grid-gap: 2rem;
+    }
+  
+    footer {
+      padding-top: 10rem;
+      padding-bottom: 1rem;
+      font-size: 0.6rem;
+    }
+  
+    .button {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .antraLogo {
+      width: 8rem;
+      position: relative;
+      top: 1rem;
+    }
+  
+    h1,
+    .signUp {
+      font-size: 95%;
+    }
+  
+    .form {
+      padding: 0 0.5rem;
+    }
+    .formName {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 1rem;
+    }
+  
+    .topSection p,
+    li {
+      font-size: 0.7rem;
+    }
+  
+    .instruction,
+    .agreementSection,
+    .inputText {
+      font-size: 0.65rem;
+    }
+  
+    .agreementDetails,
+    .btnRegister {
+      font-size: 0.55rem;
+    }
+  
+    footer {
+      font-size: 0.5rem;
+      padding-top: 7rem;
+    }
+  
+    .inputText,
+    .button {
+      font-size: 0.7rem;
+      height: 2rem;
+    }
+  }
